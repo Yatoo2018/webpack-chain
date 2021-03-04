@@ -225,7 +225,7 @@ when(condition, whenTruthy, whenFalsy)
 
 ## ChainedSet
 
-webpack-chain 中的核心API接口另一个是 `ChainedSet`. 一个 `ChainedSet`的操作类似于JavaScript Map, 为链式和生成配置提供了一些便利。 如果一个属性被标记一个 `ChainedSet`, 则它将具有如下的API和方法:
+webpack-chain 中的核心API接口另一个是 `ChainedSet`. 一个 `ChainedSet`的操作类似于JavaScript Set, 为链式和生成配置提供了一些便利。 如果一个属性被标记一个 `ChainedSet`, 则它将具有如下的API和方法:
 
 **除非另有说明，否则这些方法将返回 `ChainedSet` , 允许链式调用这些方法。**
 
